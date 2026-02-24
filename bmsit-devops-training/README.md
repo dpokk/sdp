@@ -1,1 +1,0 @@
-# bmsit-devops-training
