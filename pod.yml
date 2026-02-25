@@ -7,8 +7,8 @@ metadata:
 spec:
   containers:
     - name: demo-node-app
-      image: demo-node-app:latest
-      imagePullPolicy: Never          # use locally built image in Minikube
+      image: dpokk/demo-node-app:latest
+      imagePullPolicy: IfNotPresent
       ports:
         - containerPort: 3000
       env:
